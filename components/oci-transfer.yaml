@@ -15,11 +15,11 @@ spec:
   component: github.com/ammar/que
   interval: 10m0s
   semver: v1.0.0
-  verify:
-    - signature:
-        name: alice
-        key:
-          name: alice-publickey
+  # verify:
+  #   - signature:
+  #       name: alice
+  #       key:
+  #         name: alice-publickey
 status:
   latestVersion: v1.0.0
   replicatedVersion: v1.0.0
