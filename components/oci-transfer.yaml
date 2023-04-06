@@ -13,7 +13,7 @@ spec:
       name: screds
     url: ghcr.io/sidhishruti22
   component: github.com/ammar/que
-  interval: 10m0s
+  interval: 1m0s
   semver: v1.0.0
   # verify:
   #   - signature:
