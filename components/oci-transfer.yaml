@@ -6,11 +6,11 @@ metadata:
 spec:
   source:
     secretRef:
-      name: creds
+      name: regcred
     url: ghcr.io/mohammad-ammar14
   destination:
     secretRef:
-      name: screds
+      name: sregcred
     url: ghcr.io/sidhishruti22
   component: github.com/ammar/que
   interval: 10m0s
