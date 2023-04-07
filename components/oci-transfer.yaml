@@ -1,7 +1,7 @@
 apiVersion: delivery.ocm.software/v1alpha1
 kind: ComponentSubscription
 metadata:
-  name: podinfo-transfer-sap-artf
+  name: podinfo-transfer-sap-artf-reg
   namespace: ocm-system
 spec:
   source:
