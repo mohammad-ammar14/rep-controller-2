@@ -9,7 +9,7 @@ spec:
     secretRef:
       name: creds
   destination:
-    url: int.repositories.cloud.sap/artifactory/podinfo-component
+    url: podinfo-component.int.repositories.cloud.sap
     secretRef:
       name: aregcred
   component: github.com/ammar/que
