@@ -11,7 +11,7 @@ spec:
   destination:
     url: podinfo-component.int.repositories.cloud.sap
     secretRef:
-      name: acreds
+      name: aregcred
   component: github.com/ammar/que
   interval: 1m0s
   semver: v1.0.0
