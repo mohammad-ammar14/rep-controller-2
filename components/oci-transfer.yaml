@@ -12,8 +12,8 @@ spec:
     url: artefact-transfer-test.int.repositories.cloud.sap
     secretRef:
       name: acreds
-  component: github.com/ammar/que
-  interval: 1m0s
+  component: github.com/acme/rollback-test
+  interval: 10m0s
   semver: v1.0.1
   # verify:
   #   - signature:
