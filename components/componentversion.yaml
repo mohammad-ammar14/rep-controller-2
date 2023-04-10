@@ -12,8 +12,8 @@ spec:
     url: ghcr.io/mohammad-ammar14
     secretRef:
       name: creds
-  verify:
-  - name: alice
-    publicKey:
-      secretRef:
-        name: alice-publickey
+  # verify:
+  # - name: alice
+  #   publicKey:
+  #     secretRef:
+  #       name: alice-publickey
