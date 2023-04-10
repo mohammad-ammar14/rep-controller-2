@@ -7,7 +7,7 @@ spec:
   source:
     url: ghcr.io/mohammad-ammar14  
     secretRef:
-      name: creds
+      name: regcred
   destination:
     url: artefact-transfer-test.int.repositories.cloud.sap
     secretRef:
