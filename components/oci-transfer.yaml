@@ -1,11 +1,11 @@
 apiVersion: delivery.ocm.software/v1alpha1
 kind: ComponentSubscription
 metadata:
-  name: podinfo-transfer-sap-art
+  name: componentsubscription-sample
   namespace: ocm-system
 spec:
   source:
-    url: ghcr.io/mohammad-ammar14  
+    url: ghcr.io/mohammad-ammar14 
     secretRef:
       name: creds
   destination:
@@ -13,13 +13,39 @@ spec:
     secretRef:
       name: acreds
   component: github.com/ammar/que
-#  interval: 10m0s
-#  semver: v1.0.0
+  interval: 10m0s
+  semver: "~v1.0.0"
   # verify:
   #   - signature:
-  #       name: alice
+  #       name: signature-name
   #       key:
-  #         name: alice-publickey
+  #         name: verify-key-name
 status:
-  latestVersion: v1.0.1
-  replicatedVersion: v1.0.0
+  latestVersion: "v1.0.1"
+  replicatedVersion: "v1.0.0"
+
+# apiVersion: delivery.ocm.software/v1alpha1
+# kind: ComponentSubscription
+# metadata:
+#   name: podinfo-transfer-sap-art
+#   namespace: ocm-system
+# spec:
+#   source:
+#     url: ghcr.io/mohammad-ammar14  
+#     secretRef:
+#       name: creds
+#   destination:
+#     url: artefact-transfer-test.int.repositories.cloud.sap
+#     secretRef:
+#       name: acreds
+#   component: github.com/ammar/que
+# #  interval: 10m0s
+# #  semver: v1.0.0
+#   # verify:
+#   #   - signature:
+#   #       name: alice
+#   #       key:
+#   #         name: alice-publickey
+# status:
+#   latestVersion: v1.0.1
+#   replicatedVersion: v1.0.0
