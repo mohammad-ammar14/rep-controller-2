@@ -10,8 +10,8 @@ spec:
     url: ghcr.io/mohammad-ammar14
   destination:
     secretRef:
-      name: acreds
-    url: artefact-transfer-test.int.repositories.cloud.sap
+      name: screds
+    url: ghcr.io/sidhishruti22
   component: github.com/acme/db-app
   interval: 10s
   semver: "=>v1.0.0"
