@@ -7,14 +7,14 @@ spec:
   source:
     url: ghcr.io/mohammad-ammar14  
     secretRef:
-      name: creds
+      name: regcred
   destination:
     url: artefact-transfer-test.int.repositories.cloud.sap
     secretRef:
       name: acreds
-  component: github.com/acme/rollback-test
+  component: github.com/ammar/que
   interval: 10m0s
-  semver: v1.0.1
+  semver: v1.0.0
   # verify:
   #   - signature:
   #       name: alice
@@ -22,4 +22,4 @@ spec:
   #         name: alice-publickey
 status:
   latestVersion: v1.0.1
-  replicatedVersion: v1.0.1
+  replicatedVersion: v1.0.0
