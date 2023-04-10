@@ -13,7 +13,7 @@ spec:
     secretRef:
       name: acreds
   component: github.com/ammar/que
-  interval: 10m0s
+#  interval: 10m0s
   semver: v1.0.0
   # verify:
   #   - signature:
