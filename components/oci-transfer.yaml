@@ -1,7 +1,7 @@
 apiVersion: delivery.ocm.software/v1alpha1
 kind: ComponentSubscription
 metadata:
-  name: podify-subscription-test-2
+  name: podify-subscription-test
   namespace: ocm-system
 spec:
   source:
@@ -10,7 +10,7 @@ spec:
     url: ghcr.io/mohammad-ammar14
   destination:
     secretRef:
-      name: screds
+      name: creds
     url: ghcr.io/sidhishruti22
   component: github.com/acme/db-app
   interval: 10s
