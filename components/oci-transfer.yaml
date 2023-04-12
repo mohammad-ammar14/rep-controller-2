@@ -10,8 +10,8 @@ spec:
   source:
     url: ghcr.io/sidhishruti22
     secretRef:
-      name: creds
+      name: acreds
   destination:
-    url: ghcr.io/mohammad-ammar14
+    url: artefact-transfer-test.int.repositories.cloud.sap
     secretRef:
       name: creds
