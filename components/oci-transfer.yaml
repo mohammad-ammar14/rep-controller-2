@@ -14,7 +14,7 @@ spec:
     url: ghcr.io/sidhishruti22
   component: github.com/sidhishruti22/podify
   interval: 10s
-  semver: "=>v1.0.2"
+  semver: "=>v1.0.0"
   # verify:
   #   - name: phoban01
   #     publicKey:
