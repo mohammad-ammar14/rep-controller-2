@@ -1,7 +1,7 @@
 apiVersion: delivery.ocm.software/v1alpha1
 kind: ComponentSubscription
 metadata:
-  name: podify-subscription-test
+  name: podify-subscription-test-2
   namespace: ocm-system
 spec:
   interval: 10m
