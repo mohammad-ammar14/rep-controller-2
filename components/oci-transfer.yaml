@@ -1,7 +1,7 @@
 apiVersion: delivery.ocm.software/v1alpha1
 kind: ComponentSubscription
 metadata:
-  name: podify-subscription-test-2
+  name: podify-subscription-test-3
   namespace: ocm-system
 spec:
   interval: 10m
@@ -10,8 +10,8 @@ spec:
   source:
     url: ghcr.io/sidhishruti22
     secretRef:
-      name: acreds
+      name: creds
   destination:
     url: artefact-transfer-test.int.repositories.cloud.sap
     secretRef:
-      name: creds
+      name: acreds
